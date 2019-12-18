@@ -1,0 +1,15 @@
++ To compile my project, type command make
++ To run my project, type either one of the following commands:
+	./logParse (this command will take the default input.dat as inputfile		and save the output to the default output.dat file. To see the output 
+	type command cat output.dat)
+	
+	./logParse -i input.txt -o output.txt (this command will take the
+	input.txt as input file and save the output to output.txt file. To see
+	the output file, type command cat output.txt)
+	
+	./logParse -h (this command will display the usage).
+
++To clean object file, type command make clean.
+
++For this project, I do not include the control version log. I am not sure what the requirement for log control version. In addition, I am pretty new to the 
+hoare machine. First I think hoare machine is just used to compile and test the project, but it is required to submit the project through NOT Canvas. 
